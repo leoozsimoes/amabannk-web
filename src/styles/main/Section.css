@@ -1,0 +1,276 @@
+.title {
+    width: 55%;
+    font-size: 6vw;
+    position: relative;
+}
+
+.title-line {
+    color: #77CA0A;
+    position: relative;
+    top: 2vw;
+    left: 2px;
+    font-size: 6vw;
+}
+
+@media (min-width: 1024px) {
+    .title {
+        width: 440px;
+        font-size: 5.5rem;
+        line-height: 6.5rem;
+    }
+
+    .title-line {
+        font-size: 2.5vw;
+        top: 1.1vw;
+    }
+}
+
+/* Section */
+.section {
+    background: url('../../img/Meio.jpg');
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+/* Form  */
+.form-small {
+    font-size: 2.5vw;
+}
+
+.title-form {
+    font-size: 5.5vw;
+}
+
+@media (min-width: 420px) {
+    .title-form {
+        font-size: 2.4rem;
+    }
+
+    .form-small {
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+        text-align: center;
+        display: block;
+        width: 75%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .title-form {
+        width: 100%;
+        font-size: 4.5rem;
+        line-height: 5.5rem;
+    }
+}
+
+
+
+/* Paragrafo */
+.title-paragraph {
+    font-size: 5.4vw;
+    line-height: 7.5vw;
+}
+
+.paragraph p,
+.ul-paragraph li {
+    font-size: 3.3vw;
+    line-height: 4.6vw;
+}
+
+.ul-paragraph {
+    list-style-type: circle;
+}
+
+.title-h5 {
+    font-size: 3.4vw;
+}
+
+@media (min-width: 420px) {
+    .title-paragraph {
+        font-size: 2.1rem;
+        line-height: 2.6rem;
+    }
+
+    .paragraph p,
+    .ul-paragraph li {
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+    }
+
+    .title-h5 {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .title-paragraph {
+        font-size: 4.2vw;
+        line-height: 5.5rem;
+    }
+
+    .paragraph p,
+    .ul-paragraph li,
+    .title-h5 {
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .paragraph p,
+    .ul-paragraph li {
+        font-size: 1.8rem;
+        line-height: 2.9rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .title-paragraph {
+        font-size: 5.5rem;
+        line-height: 6.5rem;
+    }
+}
+
+/* Lista - App */
+.list-app li {
+    border-radius: 10px;
+    padding: 5px;
+    height: 82px;
+}
+
+.list-app li {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.list-app li .icon {
+    width: 30px !important;
+    height: 32px !important;
+    min-width: initial !important;
+    max-width: initial !important;
+    min-height: initial !important;
+    max-height: initial !important;
+    margin: 0 !important;
+    position: relative !important;
+    bottom: 0px !important;
+    transform: translate(-50% -50%);
+}
+
+.list-app li.bg-lg {
+    background: linear-gradient(90deg, #ECEDEA, #F8F8F6, #DCDBD8);
+}
+
+.list-app li.borda {
+    border: 4px solid #fff;
+}
+
+@media (min-width: 1024px) {
+    .list-app li {
+        width: 100%;
+        height: 103px;
+        font-size: 1.4rem;
+    }
+}
+
+/* Img */
+.icon-card {
+    border-radius: 10px;
+}
+
+.gerenation_planet div,
+.gerenation_planet img,
+.app div,
+.app img,
+.icon-card img,
+.icon-card div,
+.logo-footer div,
+.selos div,
+.selos img {
+    position: relative !important;
+}
+.selos > div + div{display: none;}
+.gerenation_planet img,
+.men img,
+.app img,
+.logo-footer img,
+.selos img {
+    width: auto !important;
+    height: auto !important;
+}
+
+.men img {
+    min-height: 116% !important;
+    min-width: 116% !important;
+    margin-top: -13px !important;
+    margin-left: -10px !important;
+}
+
+
+@media (min-width: 1280px) {
+    .app img {
+        min-width: 120% !important;
+        min-height: 128% !important;
+    }   
+}
+
+
+.icon-card img {
+    min-width: initial !important;
+    max-width: initial !important;
+    min-height: initial !important;
+    max-height: initial !important;
+    width: 103px !important;
+    height: 130px !important;
+    margin: 0 !important;
+}
+
+.logo-footer {
+    min-width: initial !important;
+    max-width: initial !important;
+    min-height: initial !important;
+    max-height: initial !important;
+    width: 91px !important;
+    height: 54px !important;
+    margin: 0 !important;
+}
+
+@media (min-width: 1024px) {
+    .icon-card img {
+        width: 180px !important;
+        height: 224px !important;
+        margin: initial !important;
+    }
+
+    .logo-footer {
+        width: 163px !important;
+        height: 97px !important;
+    }
+
+    .men div,
+    .app div,
+    .icon-card div {
+        overflow: initial !important;
+    }
+}
+
+/* Grid */
+.grid-670-auto {
+    grid-template-columns: 60% 40%;
+}
+
+@media (min-width: 1280px) {
+    .grid-50-50 {
+        grid-template-columns: 50% 50%
+    }
+    .app img {
+        min-width: 120% !important;
+        min-height: 128% !important;
+    }
+    
+}
+
